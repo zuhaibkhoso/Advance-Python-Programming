@@ -1,4 +1,4 @@
-sign = "+", "-", "*", "/"
+symb = "+", "-", "*", "/"
 
 while True:
     
@@ -31,7 +31,7 @@ while True:
         print(f"\n{num1} / {num2} = {num1 / num2}")
 
     # invalid input && quit system
-    elif user_input != sign and user_input == "-q":
+    elif user_input != symb and user_input == "-q":
         print("\nQuit!")
         break
     else:
