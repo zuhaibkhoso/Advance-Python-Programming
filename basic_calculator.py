@@ -6,25 +6,25 @@ while True:
 
     user_input = input("Operation: ")
 
-    # do to addition
+    # to do addition
     if user_input == "+":
         num1 = float(input("Enter 1st Number: "))
         num2 = float(input("Enter 2nd Number: "))
         print(f"\n{num1} + {num2} = {num1 + num2}")
 
-    # do to subtraction
+    # to do subtraction
     elif user_input == "-":
         num1 = float(input("Enter 1st Number: "))
         num2 = float(input("Enter 2nd Number: "))
         print(f"\n{num1} - {num2} = {num1 - num2}")
 
-    # do to multiplication
+    # to do multiplication
     elif user_input == "*":
         num1 = float(input("Enter 1st Number: "))
         num2 = float(input("Enter 2nd Number: "))
         print(f"\n{num1} x {num2} = {num1 * num2}")
 
-    # do to division
+    # to do division
     elif user_input == "/":
         num1 = float(input("Enter 1st Number: "))
         num2 = float(input("Enter 2nd Number: "))
