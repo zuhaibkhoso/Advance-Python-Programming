@@ -16,7 +16,7 @@ while True:
     print("3. Search Contact")
     print("4. Delete Contact")
 
-    # type number to perform a task
+    # type option number to perform a task
     user_input = input("What Do You Want To Perform? ")
 
     # add contacts
