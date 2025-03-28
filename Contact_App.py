@@ -3,7 +3,7 @@ contacts: dict = {}
 while True:
 
     # Start Program
-    user_input = input("Press Enter to Continue / Type 'q' to Quit!\n")
+    user_input = input("\nPress Enter to Continue / Type 'q' to Quit!\n")
 
     if user_input == "q":
         break
@@ -36,7 +36,7 @@ while True:
         userName = input("Enter Contact Name: ")
         userName = userName.capitalize()
         if userName in contacts:
-            print(f"{userName} - {contacts[userName]}")
+            print(f"\n{userName} - {contacts[userName]}")
         else:
             print("Contact Not Found!")
 
@@ -46,6 +46,6 @@ while True:
         userName = userName.capitalize()
         if userName in contacts:
             del contacts[userName]
-            print(f"{userName} Deleted Successfully!")
+            print(f"\n{userName} Deleted Successfully!")
         else:
             print("Contact Not Found!")
