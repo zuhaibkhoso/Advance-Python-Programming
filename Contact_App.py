@@ -23,6 +23,7 @@ while True:
     if user_input == "1":
         userContact = input("Enter Contact No. ")
         userName = input("Enter Contact Name: ")
+        userName = userName.capitalize()
         contacts[userName] = userContact
 
     # show contacts
@@ -42,6 +43,7 @@ while True:
     # delete contacts
     elif user_input == "4":
         userName = input("Enter Contact Name: ")
+        userName = userName.capitalize()
         if userName in contacts:
             del contacts[userName]
             print(f"{userName} Deleted Successfully!")
